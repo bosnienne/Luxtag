@@ -45,7 +45,7 @@ ul li {
 p {
     margin-bottom: 1.5em;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 40px;
     color: #a6a7aa;
     margin-top: 2em;
     
@@ -1002,7 +1002,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fafafa !important;
 }
 
-.pricing-table {
+.luxtag-about-table {
   padding: 20px 20px 40px 20px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -1014,10 +1014,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s;
   text-align: center;
 }
-.pricing-table:hover {
+.luxtag-about-table:hover {
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
 }
-.pricing-table .icon {
+.luxtag-about-table .icon {
   font-size: 26px;
   color: #4676fa;
   border: 1px solid #039be5;
@@ -1028,23 +1028,23 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 64px;
   margin: 30px auto;
 }
-.pricing-table .pricing-details h2 {
+.luxtag-about-table .luxtag-about-details h2 {
   font-size: 22px;
   font-weight: 600;
   color: #333;
   margin-bottom: 10px;
 }
-.pricing-table .pricing-details span {
+.luxtag-about-table .luxtag-about-details span {
   display: inline-block;
   font-size: 28px;
   font-weight: 400;
   color: #039be5;
   margin-bottom: 20px;
 }
-.pricing-table .pricing-details ul {
+.luxtag-about-table .luxtag-about-details ul {
   margin-bottom: 35px;
 }
-.pricing-table .pricing-details ul li {
+.luxtag-about-table .luxtag-about-details ul li {
   padding: 10px;
   font-size: 15px;
   border-bottom: 1px solid #eee;
@@ -1122,58 +1122,401 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.team{
+.luxtag-team{
 	text-align:center;
 	margin-top: 46px;
 }
-.team .b1{
+.luxtag-team .b1{
 	padding-left:0;
 }
-.team .b3{
+.luxtag-team .b3{
 	padding-right:0;
 }
-.team img{
+.luxtag-team img{
 	margin:0 auto;
 }
-.team h4{
+.luxtag-team h4{
 	margin-top: 24px;
 	font-size:20px;
 	color:#2f2f2f;
-	font-family: 'Roboto', 'sans-serif';
 	font-weight: 300;
 }
-.team h5{
-	margin-top: -3px;
-	font-size:13px;
-	color:#a9a9a9;
-	font-family: 'Roboto', 'sans-serif';
-	font-weight: 300;
+.luxtag-team h5{
+	margin-top: -3px; */
+    font-size: 14px;
+    color: #039be5;
+    text-transform: uppercase;
+    font-weight: 500;
 }
-.team p{
-	margin-top: 12px;
-	font-size: 13px;
-	color: #666;
-	font-family: 'Roboto', 'sans-serif';
-	font-weight: 300;
-	line-height: 24px;
 
-}
-.team ul{
+.luxtag-team ul{
 	margin-top: 2px;
 	padding-left:0px;
 	display: inline-block;
 	margin:0 auto;
 }
-.team ul li{
+.luxtag-team ul li{
 	padding:0 10px;
 	float:left;
 	list-style:none;
 	font-family: FontAwesome;
 	font-size:15px;
 }
-.team ul li a{
+.luxtag-team ul li a{
 	color:#2f2f2f;
 }
-.team ul li a:hover{
+.luxtag-team ul li a:hover{
 	color:#1fcdff;
+}
+
+
+
+/*FOOTER*/
+
+
+.luxtag-footer-style-1,
+.luxtag-footer-style-2,
+.luxtag-footer-style-3 {
+  padding: 5em 0;
+}
+@media screen and (max-width: 768px) {
+  .luxtag-footer-style-1,
+  .luxtag-footer-style-2,
+  .luxtag-footer-style-3 {
+    padding: 3em 0;
+  }
+}
+
+.luxtag-footer-style-1 {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.luxtag-footer-style-1 .p-b {
+  padding-bottom: 20px;
+}
+.luxtag-footer-style-1 .luxtag-subscribe {
+  padding: 7em 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.luxtag-footer-style-1 .luxtag-subscribe > .luxtag-overlay {
+  position: absolute;
+  background: #000;
+  opacity: .45;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form {
+  position: relative;
+  z-index: 3;
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form h2 {
+  color: #fff;
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form p:last-child {
+  margin-bottom: 0;
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form-group {
+  position: relative;
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form-group i {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -10px;
+  color: #fff;
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form-control {
+  padding-left: 45px;
+  padding-right: 30px;
+  box-shadow: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  height: 52px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form-control:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.luxtag-footer-style-1 .luxtag-subscribe .form-control:focus, .luxtag-footer-style-1 .luxtag-subscribe .form-control:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+.luxtag-footer-style-1 .luxtag-subscribe .btn {
+  margin-top: 3px;
+  height: 52px;
+}
+.luxtag-footer-style-1 .luxtag-footer-inner {
+  padding: 7em 0;
+
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .copyright {
+  margin-bottom: 20px !important;
+  line-height: 1.5;
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .luxtag-logo {
+  margin-bottom: 20px;
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .luxtag-logo a {
+  padding: 15px 15px;
+  background: rgba(0, 0, 0, 0.07);
+  font-size: 40px;
+  color: #4d4d4d;
+  font-weight: 700;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .luxtag-logo a:hover, .luxtag-footer-style-1 .luxtag-footer-inner .luxtag-logo a:focus {
+  text-decoration: none;
+}
+.luxtag-footer-style-1 .luxtag-footer-inner h3 {
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  
+}
+.luxtag-footer-style-1 .luxtag-footer-inner p {
+  color: #b3b3b3;
+  font-size: 15px;
+  font-weight: 40;
+ 
+}
+.luxtag-footer-style-1 .luxtag-footer-inner p:last-child {
+  margin-bottom: 0;
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .links {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .links li {
+  list-style: none;
+  
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .links li a {
+  font-size: 14px;
+  color: gray;
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .links li a:hover {
+  text-decoration: none;
+  color: #1784fb;
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .luxtag-social {
+  text-align: right;
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .luxtag-footer-style-1 .luxtag-footer-inner .luxtag-social {
+    text-align: left;
+  }
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .luxtag-social a {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333333;
+}
+.luxtag-footer-style-1 .luxtag-footer-inner .luxtag-social a:hover {
+  text-decoration: none;
+  color: #1784fb;
+}
+
+.luxtag-footer-style-2 {
+  background: #232939;
+}
+.luxtag-footer-style-2 .luxtag-logo {
+  color: #fff;
+  font-size: 24px;
+ 
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 480px) {
+  .luxtag-footer-style-2 .luxtag-logo {
+    text-align: center;
+  }
+}
+.luxtag-footer-style-2 .luxtag-logo > span {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+@media screen and (max-width: 768px) {
+  .luxtag-footer-style-2 .luxtag-logo > span {
+    display: block;
+  }
+}
+.luxtag-footer-style-2 a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.luxtag-footer-style-2 a:hover {
+  color: white;
+}
+.luxtag-footer-style-2 .footer-style-2-link {
+  text-align: right;
+}
+.luxtag-footer-style-2 .footer-style-2-link > a {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .luxtag-footer-style-2 .footer-style-2-link {
+    text-align: left;
+  }
+}
+.luxtag-footer-style-2 .footer-style-2-link ul {
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 480px) {
+  .luxtag-footer-style-2 .footer-style-2-link ul {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .luxtag-footer-style-2 .footer-style-2-link ul {
+    margin-bottom: 20px;
+  }
+}
+.luxtag-footer-style-2 .footer-style-2-link ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+@media screen and (max-width: 480px) {
+  .luxtag-footer-style-2 .footer-style-2-link ul li {
+    display: block;
+  }
+}
+.luxtag-footer-style-2 .footer-style-2-link ul li a {
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 480px) {
+  .luxtag-footer-style-2 .footer-style-2-link ul li a {
+    padding: 4px 0;
+    display: block;
+  }
+}
+.luxtag-footer-style-2 .footer-style-2-link ul li a:hover {
+  color: white;
+}
+
+.luxtag-footer-style-3 {
+  background: #262626;
+  font-size: 15px;
+}
+.luxtag-footer-style-3 .luxtag-footer-widget {
+  margin-bottom: 30px;
+}
+.luxtag-footer-style-3 .luxtag-logo {
+  color: #fff;
+  font-size: 24px;
+  
+  margin-bottom: 40px;
+}
+.luxtag-footer-style-3 .luxtag-logo .logo {
+  padding: 7px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
+.luxtag-footer-style-3 .luxtag-copyright {
+  font-size: 15px;
+}
+.luxtag-footer-style-3 h3 {
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .luxtag-footer-style-3 h3 {
+    margin-bottom: 20px;
+  }
+}
+.luxtag-footer-style-3 p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.luxtag-footer-style-3 a {
+  color: rgba(255, 255, 255, 0.3);
+}
+.luxtag-footer-style-3 a:hover {
+  color: white;
+}
+.luxtag-footer-style-3 .btn {
+  border-color: rgba(255, 255, 255, 0.1);
+  color: gray;
+}
+.luxtag-footer-style-3 .luxtag-links {
+  padding: 0;
+  margin: 0;
+}
+.luxtag-footer-style-3 .luxtag-links li {
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
+}
+.luxtag-footer-style-3 .luxtag-links.luxtag-social .icon {
+  font-size: 17px;
+  margin-right: 5px;
+  top: 2px;
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.luxtag-footer-style-3 .luxtag-made {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 4em;
+}
+.luxtag-footer-style-3 .luxtag-made p {
+  font-size: 24px;
+}
+.luxtag-footer-style-3 .luxtag-made p:last-child {
+  margin-bottom: 0;
+}
+.luxtag-footer-style-3 .luxtag-made p .heart {
+  color: #fb4f59;
 }
