@@ -527,6 +527,44 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
   }
 }
+.luxtag-header .logo {
+  width: 150px;
+  height: 150px;
+  float: left;
+  max-height: 95px;
+  line-height: 65px;
+}
+
+.luxtag-header .logo-wrap {
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.luxtag-header .logo-wrap:focus, .header .logo-wrap:hover {
+  text-decoration: none;
+}
+
+.luxtag-header .logo-img {
+  display: inline-block;
+    width: 160px;
+    height: auto;
+    /* max-width: 100%; */
+    vertical-align: middle;
+}
+
+.luxtag-header .logo-img-main {
+  display: inline-block;
+  transition-duration: 400ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.luxtag-header .logo-img-active {
+  display: none;
+  transition-duration: 400ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
 
 
 #luxtag-home {
