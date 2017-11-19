@@ -662,6 +662,116 @@ h1, h2, h3, h4, h5, h6 {
   width: 33.33%;
   float: left;
   text-align: center;
+  font-size: 16px;
+  min-height: 300px;
+  vertical-align: middle;
+  padding: 40px;
+  background: #fff;
+  -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  z-index: 7;
+  flex-grow: 1;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  #luxtag-intro .luxtag-block {
+    width: 100%;
+  }
+}
+#luxtag-intro .luxtag-block > .overlay-darker {
+  z-index: 8;
+  background: #039be5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#luxtag-intro .luxtag-block > .overlay {
+  background: #fff;
+  opacity: 1;
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#luxtag-intro .luxtag-block > .luxtag-text {
+  position: relative;
+  z-index: 10;
+}
+#luxtag-intro .luxtag-block > .luxtag-text .luxtag-intro-icon {
+  font-size: 50px;
+  color: #039be5;
+  margin-bottom: 30px;
+  display: block;
+}
+#luxtag-intro .luxtag-block h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+#luxtag-intro .luxtag-block:hover > .overlay, #luxtag-intro .luxtag-block:focus > .overlay {
+  opacity: 0;
+  z-index: 9;
+}
+#luxtag-intro .luxtag-block:hover > .luxtag-text, #luxtag-intro .luxtag-block:focus > .luxtag-text {
+  color: #fff;
+}
+#luxtag-intro .luxtag-block:hover > .luxtag-text .luxtag-intro-icon, #luxtag-intro .luxtag-block:focus > .luxtag-text .luxtag-intro-icon {
+  color: #fff;
+}
+#luxtag-intro .luxtag-block:hover h2, #luxtag-intro .luxtag-block:focus h2 {
+  color: #fff;
+}
+
+#luxtag-intro .luxtag-block:hover p, #luxtag-intro .luxtag-block:focus p {
+  color: #fff;
+}
+#luxtag-intro .luxtag-block:hover .btn, #luxtag-intro .luxtag-block:focus .btn {
+  border: 2px solid #fff !important;
+  background: transparent;
+}
+#luxtag-intro .luxtag-block:hover .btn:hover, #luxtag-intro .luxtag-block:focus .btn:hover {
+  background: #039be5 !important;
+  border: 2px solid white !important;
+}
+
+
+/*#luxtag-intro {
+  position: relative;
+  bottom: 0;
+  margin-top: -150px;
+  z-index: 10;
+  padding-bottom: 7em;
+}
+@media screen and (max-width: 768px) {
+  #luxtag-intro {
+    padding-bottom: 3em;
+  }
+}
+#luxtag-intro > div {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+}
+#luxtag-intro .luxtag-block {
+  width: 33.33%;
+  float: left;
+  text-align: center;
   font-size: 14px;
     font-weight: 200;
   min-height: 300px;
@@ -746,7 +856,7 @@ h1, h2, h3, h4, h5, h6 {
   background: white !important;
   color: #039be5 !important;
   border: 1px solid #fff !important;
-}
+}*/
 
 .watch-video {
   text-align: center;
@@ -1307,47 +1417,116 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #4F5F56;
 }
 
+/*For portfolio Section*/
 
-#about {
-  position: relative;
-  background: #fafafa;
+/*.portfolio{
+    background-color: #f9fafc;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -ms-background-size:cover;
+    width: 100%;
+    overflow: hidden;
 }
-.item-boxes {
-  text-align: center;
-  padding: 15px;
-  border-radius: 4px;
-  margin-bottom: 15px;
-  webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+
+.community-edition{
+    background:#fff;
+    padding:40px 15px;
+    border:1px solid #ececec;
+    box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    -webkit-box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    -moz-box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    -o-box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    -ms-box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    transition:.3s ease-in-out;
+    -moz-transition:.3s ease-in-out;
+    -webkit-transition:.3s ease-in-out;
 }
-.item-boxes .icon {
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  border: 1px solid #039be5;
-  display: inline-block;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  webkit-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+.community-edition:hover{
+    background:#039be5;
+    color:#fff;
 }
-.item-boxes .icon i {
-  font-size: 30px;
-  line-height: 60px;
-  color: #039be5;
+.community-edition:hover i {
+    color:#fff;
 }
-.item-boxes h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
+.community-edition:hover h4 {
+    color:#fff;
 }
-.item-boxes:hover {
-  background: #fff;
-  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+.community-edition:hover p {
+    color:#fff;
 }
+
+.community-edition i{
+    font-size:60px;
+    color:#039be5;
+    margin-bottom: 20px;
+}
+
+
+.portfolio-wrapper2{
+    margin-top:25px;
+}*/
+.pad-xl {
+	padding: 200px 0px;
+}
+
+
+#be-the-first {
+  background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
+  min-height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr.line {
+	width: 100%;
+	border: 2px solid;
+}
+
+.purple {
+	border-color: #6d3f96;
+	color: #6d3f96;
+}
+
+.blue {
+	border-color: #70cbce;
+	color: #70cbce
+}
+
+.yellow {
+	border-color: #fdc05d;
+	color: #fdc05d;
+}
+
+.iphone {
+    position: relative;
+    height: 200px;
+}
+
+.iphone img {
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 440px;
+}
+
+
+
+.main-project .project-item{
+
+}
+.project-item .project-photo {
+    min-height: 152px;
+    max-width: 160px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
 #services {
   position: relative;
   background: #fafafa;
